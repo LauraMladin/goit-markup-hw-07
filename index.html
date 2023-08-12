@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio Homework Project</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -78,7 +79,7 @@
                 </ul>
             </div>
 
-            <ul class="mobile-addres-list list">
+            <ul class="mobile-addres-list">
                 <li class="mobile-addres-list_item">
                     <a class="mobile-addres-list_link mobile-addres-list_link-phone link" href="tel:+48111111111">+48
                         111 111 111</a>
@@ -89,7 +90,7 @@
                 </li>
             </ul>
 
-            <ul class="header-social-list list">
+            <ul class="header-social-list">
                 <li class="header-social-list-item">
                     <a class="header-social-list-link link" href="#">Instagram</a>
                 </li>
@@ -481,19 +482,21 @@
                         </li>
                     </ul>
                 </div>
-                <div class="form-subscribe">
-                    <p class="paragraph-form">Subscribe to the newsletter</p>
-                    <form class="footer-form">
-                        <label class="visually-hidden" for="email"></label>
-                        <input id="email" type="email" name="email" placeholder="E-mail">
-                        <button class="subscribe-btn" type="submit">Subscribe
-                            <svg class="icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-send"></use>
-                            </svg>
-                        </button>
-                    </form>
-                </div>
             </div>
+            <div class="form-subscribe">
+                <p class="paragraph-form">Subscribe to the newsletter</p>
+                <form class="footer-form">
+                    <label class="visually-hidden" for="email"></label>
+                    <input id="email" type="email" name="email" placeholder="E-mail">
+                    <button class="subscribe-btn" type="submit">Subscribe
+                        <svg class="icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
+        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-box">
